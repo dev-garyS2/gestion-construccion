@@ -27,12 +27,6 @@ Copia la plantilla `.env.example` a `.env`:
 ```bash
 cp .env.example .env
 ```
-### 4️⃣ Generar la clave de la aplicación
-
-Laravel requiere una clave de cifrado para funcionar correctamente.
-
-```bash
-php artisan key:generate
 
 Edita `.env` con tus credenciales de PostgreSQL:
 
@@ -97,6 +91,16 @@ gestion-construccion/
 ├── composer.json
 └── README.md
 ```
+
+
+### 4️⃣ Generar la clave de la aplicación
+
+Laravel requiere una clave de cifrado para funcionar correctamente.
+
+```bash
+php artisan key:generate
+```
+
 
 ---
 
